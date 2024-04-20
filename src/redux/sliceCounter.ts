@@ -21,7 +21,7 @@ export const sliceCounter = createSlice({
         //Immer biblioteka omogućuje praćenje svih promjena koje se događaju u "draft stanju"
         //i koristi te informacije za generiranje potpuno novog nepromjenjivog stanja kada 
         //je promjena vrijednosti "mutacija" završena. 
-      console.log("Početna struktura aplikacije.");
+      //console.log("Početna struktura aplikacije.");
       state.value += 1;
     },
     decrement: (state) => {
